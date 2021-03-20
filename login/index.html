@@ -11,37 +11,36 @@
 
 <body>
   <form action="index.html" method="POST">
-      <h1>LOGIN</h1>
-      
-      
-      <span>
+      <h1 class="title">Login</h1>
+    
+      <div class="form-out">
+          <div class="form-group">
+            <input id="txt-email" placeholder="E-mail" class="form-input" Type="email"/>
+          </div>
 
-        Preencha os campos abaixo 
-
-      </span>
-
-
-      <fieldset>
-        <legend>
+          <div class="form-group">
+            <input id="txt-senha" class="form-input" placeholder="Senha" Type="password" />
+          </div>  
           
-          <label for="txt-email">e-mail</label>
-          <input id="txt-email" Type="email" name = "email"/>
 
-          <label for="txt-senha">Senha</label>
-          <input id="txt-senha" Type="password" name = "senha" />
+          <div class="form-group">
+            <button  type="submit" id="facebook" >Login with Facebook</button>
+          </div>
+    
+          <div class="form-group">
+            <button type="submit" id="cadastrase">Cadastrar-se</button>
+          </div>
+    
 
+          <div class="title txt-ou">OU</div>
 
-      </fieldset>
+          <div class="form-group">
+            <button type="submit" id="entrar">Entrar</button>
+          </div>
 
-        <button type="submit">Cadastre-se</botton>
-
-      
-        <button type="submit">Login with Facebook</button>
-
-        <label for="txt-OU">OU</label>
-        <button type="submit">Entrar</button>
-
-
+          
+         
+        </div>
     </form>
 	
   </body>
