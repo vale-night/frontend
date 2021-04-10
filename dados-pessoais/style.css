@@ -1,0 +1,64 @@
+.title {
+    color: #9c3687;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .form-input {
+    border-radius: 5px;
+    border: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #9c3687;
+    width: 93%;
+    margin-top: 10px;
+    padding: 13px;
+  }
+  
+  .form-input::placeholder {
+    color: #9c3687;
+  }
+  
+  .form-group button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 3px;
+  }
+  
+  .form-group button:hover {
+    background-color: #7f1192;
+  }
+  
+  #salvar {
+    background-color:#9c3687;
+    }
+  
+    #txt-rua{
+      float: left;
+      width: 40%;
+    }
+  
+    #txt-numero{
+      float: right;
+      width: 40%;
+      margin-right: 8px;
+    }
+  
+    #txt-cidade{
+      float: left;
+      width: 40%;
+    }
+  
+    #txt-uf{
+      float: right;
+      width: 40%;
+      margin-right: 8px;
+    }
+    select.form-input{
+      width: 100%;
+      margin-right: 8px;
+    }
+  
