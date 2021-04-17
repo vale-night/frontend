@@ -1,84 +1,80 @@
 .title {
-    color: #9c3687;
-    font-family: sans-serif;
-    text-align: center;
-  }
-  
-  .form-input {
-    border-radius: 5px;
-    border: 0;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #9c3687;
-    width: 93%;
-    margin-top: 10px;
-    padding: 13px;
-  }
-  
-  .form-input::placeholder {
-    color: black;
-  }
-  
-  .form-group button {
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px 0;
-    color: white;
-    border: 1px solid transparent;
-    border-radius: 3px;
-  }
-  .relativo{
-    position: relative;
-  }
-  
-  #search{
+  color: #9c3687;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form-input {
+  border-radius: 5px;
+  border: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #9c3687;
+  width: 93%;
+  margin-top: 10px;
+  padding: 13px;
+}
+
+.form-input::placeholder {
+  color: black;
+}
+
+.form-group button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 0;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.relativo {
+  position: relative;
+}
+
+#search-filter {
   position: absolute;
-  color: #E32055;
+  color: #e32055;
   top: 20px;
   right: 20px;
-  
-  }
-  
-  .form-group button:hover {
-    background-color: #7f1192;
-  }
-  
-  #salvar {
-    background-color:#9c3687;
-    }
-  
-    
-    select.form-input{
-      width: 100%;
-      margin-right: 8px;
-    }
-  
-  input[type=range] {
-      width: 100%;
-      -webkit-appearance: none;
-      appearance: none;
-      display: inline-block;
-      height: 0.5em;
-      border-radius: 5px;
-      background-color: #9c3687;
-      outline: none;
-  }
-  
-  input[type=range]::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Override default look */
-    appearance: none;
-    width: 15px; /* Set a specific slider handle width */
-    height: 15px; /* Slider handle height */
-    border-radius: 50%;
-    background: white; /* Green background */
-    cursor: pointer; /* Cursor on hover */
-  }
-  
-  input[type=range]::-moz-range-thumb {
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: #FFF; /* Green background */
-    cursor: pointer; /* Cursor on hover */
-  }
-  
-  
+}
+
+.form-group button:hover {
+  background-color: #7f1192;
+}
+
+#salvar {
+  background-color: #9c3687;
+}
+
+select.form-input {
+  width: 100%;
+  margin-right: 8px;
+}
+
+input[type="range"] {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  display: inline-block;
+  height: 0.5em;
+  border-radius: 5px;
+  background-color: #9c3687;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 15px; /* Set a specific slider handle width */
+  height: 15px; /* Slider handle height */
+  border-radius: 50%;
+  background: white; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #fff; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
