@@ -1,0 +1,80 @@
+body {
+	font: 100% Lucida Sans, Verdana;
+	line-height: 26px;
+	width:500px;
+	margin: auto;
+}
+.title {
+  color: #9c3687;
+  margin-left: 180px;
+  font-family: sans-serif;
+  
+}
+
+.escolha img{
+width: 90px;
+height: 90px;
+border-radius: 25px;
+}
+header {
+	display: flex;
+	padding: 10px;
+}
+.colum-cerveja{
+  font-size: 12px;
+  padding: 10px;
+}
+.preco{
+  margin-left: 150px;
+  font-size: 15px;
+  color: greenyellow;
+}
+
+.dado-single p{ 
+font-size: 16px;
+}
+
+.resumo{
+  font-size: 20px;
+}
+
+.finalizando {
+  border-radius: 5px;
+  border: 0;
+  border-style: solid;
+  width: 63%;
+  margin-top: 10px;
+  padding: 13px;
+}
+.total{
+  font-size:10px;
+  color: grey;
+}
+#cupom{
+  width: 320px;
+  height: 30px;
+}
+
+
+.form-group button {
+  width: 25%;
+  margin: 15px 0;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  
+}
+
+.form-group button:hover {
+  background-color: #7f1192;
+}
+
+#continuar {
+  background-color:#9c3687;
+  padding: 13px;
+  }
+
+  #finalizar {
+  background-color:#9c3687;
+  padding:14px;
+  }
