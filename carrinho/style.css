@@ -1,20 +1,24 @@
 body {
 	font: 100% Lucida Sans, Verdana;
 	line-height: 26px;
-	width:500px;
 	margin: auto;
 }
 .title {
   color: #9c3687;
-  margin-left: 180px;
   font-family: sans-serif;
   
 }
 
+#main-sacola {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .escolha img{
-width: 90px;
-height: 90px;
-border-radius: 25px;
+  width: 90px;
+  height: 90px;
+  border-radius: 25px;
 }
 header {
 	display: flex;
@@ -31,7 +35,7 @@ header {
 }
 
 .dado-single p{ 
-font-size: 16px;
+  font-size: 16px;
 }
 
 .resumo{
@@ -72,9 +76,9 @@ font-size: 16px;
 #continuar {
   background-color:#9c3687;
   padding: 13px;
-  }
+}
 
   #finalizar {
   background-color:#9c3687;
   padding:14px;
-  }
+ }
