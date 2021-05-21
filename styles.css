@@ -29,3 +29,38 @@ body {
 .fa-shopping-cart {
     color: #727C8E;
 }
+
+/**Classes utilitárias**/
+
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+.flex-justify-around {
+    justify-content: space-around;
+}
+
+.flex-justify-between {
+    justify-content: space-between;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-wrap {   
+    flex-wrap: wrap;
+}
+
+.grid {
+    display: grid;
+}

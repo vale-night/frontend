@@ -1,0 +1,44 @@
+main {
+    gap: 40px;
+}
+
+#info img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 7%;
+    border-radius: 300px;
+}
+
+#right-content {
+    padding-left: 10px;
+}
+
+.edit {
+    padding: 15px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: var(--main-bg-color);
+}
+
+.edit:hover {
+    background-color: #7f1192;
+}
+
+#right-content button a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu-perfil {
+    gap: 10px;
+}
+
+.card {
+    width: 70%;
+}
+
+.card img {
+    height: 24px;
+}

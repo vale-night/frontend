@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Finalizar Pedido</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <link href="../../styles.css" rel="stylesheet" type="text/css"/>
+      <link href="../../rodape.css" rel="stylesheet" type="text/css"/>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+
+      <header id="header" class="">
+         <i class="fas fa-arrow-left"></i>
+         <img src="../../images/logo.svg" alt="Logo" /> 
+         <i class="fas fa-shopping-cart"></i>
+      </header>
+     
+      <form action="index.html" method="POST">
+      
+         <h1>Finalizar Pedido</h1>
+         
+         
+         
+         <div class="input-name">
+            <label class="name" for="name"></label>
+            <input type="text" placeholder="Endereço" required />
+         </div>
+      
+         <label></label>
+         <input type="text" placeholder="Método de Pagamento" required />
+
+         <div class="mensagem">
+            <textarea clas="msg" cols="35" rows="8" placeholder="Mensagem ao promotor (Opcional)"></textarea>
+         </div>
+
+         <label></label>
+         <input type="password" placeholder="Adicionar código promocional" required />
+
+         <div class="scrollable-content">
+            <div class="card flex">
+               <div>
+                  <img src="http://tvmaisabc.com.br/wp-content/uploads/2021/03/bebidasalcoolicas.jpeg"/>
+               </div>
+               <div class="flex flex-column flex-justify-center">
+                  <span class="title">Bebidas Variadas</span>
+                  <small class="tipo">Tipo: Consumíveis</small>
+                  <span class="preco">R$ 15,00</span>
+                  <div class="quantidade">
+                     <button type="button">-</button>
+                     <span>1</span>
+                     <button type="button">+</button>
+                  </div>
+               </div>
+            </div>
+            <div class="card flex">
+               <div>
+                  <img src="http://tvmaisabc.com.br/wp-content/uploads/2021/03/bebidasalcoolicas.jpeg"/>
+               </div>
+               <div class="flex flex-column flex-justify-center">
+                  <span class="title">Bebidas Variadas</span>
+                  <small class="tipo">Tipo: Consumíveis</small>
+                  <span class="preco">R$ 15,00</span>
+                  <div class="quantidade">
+                     <button type="button">-</button>
+                     <span>1</span>
+                     <button type="button">+</button>
+                  </div>
+               </div>
+            </div>
+            <div class="card flex">
+               <div>
+                  <img src="http://tvmaisabc.com.br/wp-content/uploads/2021/03/bebidasalcoolicas.jpeg"/>
+               </div>
+               <div class="flex flex-column flex-justify-center">
+                  <span class="title">Bebidas Variadas</span>
+                  <small class="tipo">Tipo: Consumíveis</small>
+                  <span class="preco">R$ 15,00</span>
+                  <div class="quantidade">
+                     <button type="button">-</button>
+                     <span>1</span>
+                     <button type="button">+</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <label></label>
+         <button type="button">
+            <a href="/carrinho/pagamento">
+               Finalizar Pedido
+            </a>
+         </button>
+         
+      </form>
+      <footer>
+         <div class="item-footer active" id="home">
+             <a href="/">
+                 <i class="fas fa-home"></i>
+                 Home
+             </a>
+         </div>
+ 
+         <div class="item-footer" id="search">
+             <a href="/filtro-festa">
+                 <i class="fas fa-search"></i>
+                 Search
+             </a>
+         </div>
+ 
+         <div class="item-footer" id="cart">
+             <a href="/carrinho">
+                 <i class="fas fa-shopping-cart"></i>
+                 Cart
+             </a>
+         </div>
+ 
+         <div class="item-footer" id="profile">
+             <a href="/perfil">
+                 <i class="fas fa-user"></i>
+                 Profile
+             </a>
+         </div>
+ 
+         <div class="item-footer" id="more">
+             <a href="#">
+                 <i class="fas fa-plus"></i>
+                 More
+             </a>
+         </div>
+ 
+     </footer>
+      <script src="script.js"></script>
+   </body>
+</html>
